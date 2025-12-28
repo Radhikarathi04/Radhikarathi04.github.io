@@ -205,7 +205,6 @@ body {
 .profile-content-wrapper {
     padding: 5px;
     margin-right: 150px;
-    text-align: justify;
 }
 
 @keyframes transitionIn {
