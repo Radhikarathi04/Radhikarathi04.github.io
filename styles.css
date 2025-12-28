@@ -141,9 +141,17 @@ body {
 }
 
 .social-links a img {
+    object-fit: contain;
+}
+
+.linkedin-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.github-logo {
     width: 30px;
     height: 30px;
-    object-fit: contain;
 }
 
 .social-links a:hover {
