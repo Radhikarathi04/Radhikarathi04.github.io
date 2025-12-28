@@ -274,30 +274,36 @@ body {
 }
 
 .experience-item {
-    margin-bottom: 50px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.experience-item:last-child {
-    border-bottom: none;
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .experience-item h2 {
     font-size: 1.5em;
     color: #333;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .experience-date {
     color: #666;
     font-style: italic;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .experience-item ul {
-    list-style-position: outside;
-    padding-left: 20px;
+    list-style-position: inside;
+    padding-left: 0;
     margin-left: 0;
 }
 
@@ -305,6 +311,7 @@ body {
     margin-bottom: 12px;
     line-height: 1.6;
     color: #555;
+    text-align: left;
 }
 
 /* Responsive Design */
