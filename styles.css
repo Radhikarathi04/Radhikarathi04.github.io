@@ -216,6 +216,16 @@ body {
     margin-right: 150px;
 }
 
+.profile-content-wrapper ul {
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+.profile-content-wrapper li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
 @keyframes transitionIn {
     from {
         opacity: 0;
@@ -396,7 +406,7 @@ body {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 30px;
     justify-items: center;
 }
@@ -414,8 +424,8 @@ body {
 }
 
 .skill-item img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 10px;
     object-fit: contain;
 }
