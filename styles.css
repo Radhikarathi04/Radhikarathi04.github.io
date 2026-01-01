@@ -379,11 +379,11 @@ body {
 }
 
 .photo-search-card .project-thumbnail img {
-    object-position: center 15%;
+    object-position: center 5%;
 }
 
 .pong-card .project-thumbnail img {
-    object-position: center 50%;
+    object-position: center 60%;
 }
 
 .project-card:hover .project-thumbnail img,
