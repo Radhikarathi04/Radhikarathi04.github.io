@@ -378,6 +378,14 @@ body {
     transition: transform 0.3s ease;
 }
 
+.photo-search-card .project-thumbnail img {
+    object-position: center 15%;
+}
+
+.pong-card .project-thumbnail img {
+    object-position: center 50%;
+}
+
 .project-card:hover .project-thumbnail img,
 .project-card:hover .project-thumbnail video {
     transform: scale(1.05);
