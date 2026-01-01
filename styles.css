@@ -132,6 +132,7 @@ body {
     gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    justify-content: flex-start;
 }
 
 .social-links {
