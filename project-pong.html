@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D & 3D Pong Game - Radhika Rathi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+       <div class="nav-wrapper">
+        <button class="burger-menu" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="left-side">
+            <div class="nav-link-wrapper">
+                 <a href="index.html">Home</a>
+            </div>
+
+            <div class="nav-link-wrapper">
+                 <a href="about.html">About Me</a>
+            </div>
+
+            <div class="nav-link-wrapper">
+                <a href="skills.html">Skills</a>
+            </div>
+
+            <div class="nav-link-wrapper">
+                <a href="experience.html">Experience</a>
+            </div>
+
+            <div class="nav-link-wrapper active-nav-link">
+                <a href="projects.html">Projects</a>
+            </div>
+
+          </div>
+
+         <div class="right-side">
+            <div class="brand">
+                 
+                 </div>
+            </div>
+        </div>
+
+        <div class="project-detail">
+            <a href="projects.html" style="color: #2c5282; text-decoration: none; font-size: 1em; margin-bottom: 20px; display: inline-block;">← Back to Projects</a>
+            
+            <h1>2D & 3D Pong Game</h1>
+            <p class="project-description">An innovative iOS Pong game that allows users to seamlessly switch between 2D and 3D gameplay modes. Features customizable themes and visual effects for a personalized and immersive gaming experience.</p>
+
+            <div class="project-media">
+                <video controls>
+                    <source src="images/projects/2d3dpong.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+                <div class="project-images">
+                    <img src="images/projects/3d_pong1.png" alt="3D Pong Game Screenshot 1">
+                    <img src="images/projects/3d_pong2.png" alt="3D Pong Game Screenshot 2">
+                </div>
+            </div>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li>Developed using Swift with SpriteKit for 2D rendering and SceneKit for 3D graphics</li>
+                <li>Implemented seamless real-time transition between 2D and 3D game modes with smooth animations</li>
+                <li>Created 3 different color themes allowing users to customize the game's visual appearance</li>
+                <li>Added toggle feature for trail animations to enhance visual effects and gameplay feedback</li>
+                <li>Designed responsive touch controls optimized for mobile gameplay with precise paddle movement</li>
+                <li>Implemented collision detection, physics simulation, and score tracking systems</li>
+            </ul>
+
+            <h2>Technical Highlights</h2>
+            <ul>
+                <li><strong>2D/3D Switching:</strong> Built separate game engines for 2D (SpriteKit) and 3D (SceneKit) with shared game logic and state management</li>
+                <li><strong>Theme System:</strong> Dynamic color scheme application across all UI elements and game objects</li>
+                <li><strong>Visual Effects:</strong> Particle systems for trail animations with performance-optimized rendering</li>
+                <li><strong>Game Physics:</strong> Custom physics implementation for ball movement, paddle collision, and bounce mechanics</li>
+                <li><strong>User Experience:</strong> Intuitive settings menu, smooth transitions, and haptic feedback for enhanced mobile gaming</li>
+            </ul>
+
+            <h2>Challenges & Solutions</h2>
+            <ul>
+                <li><strong>Challenge:</strong> Maintaining consistent game state when switching between 2D and 3D modes</li>
+                <li><strong>Solution:</strong> Implemented a shared game state manager that persists scores, ball position, and paddle locations across mode transitions</li>
+            </ul>
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

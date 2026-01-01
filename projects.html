@@ -53,43 +53,40 @@
         <div class="projects-section">
             <h1>Projects</h1>
 
-            <div class="project-item">
-                <h2>Photo Search App</h2>
-                <div class="project-media">
-                    <video controls>
-                        <source src="images/projects/photoApp1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <p class="project-description">An iOS application that allows users to search and browse photos using the Pixabay API. Features caching for improved performance and user experience.</p>
-                <ul>
-                    <li>Built with Swift and UIKit for native iOS development</li>
-                    <li>Integrated Pixabay API for real-time photo search</li>
-                    <li>Implemented caching mechanism to store and display previously searched results, reducing API calls and improving load times</li>
-                    <li>Created intuitive search interface following iOS design guidelines</li>
-                </ul>
-            </div>
-
-            <div class="project-item">
-                <h2>2D & 3D Pong Game App</h2>
-                <div class="project-media">
-                    <video controls>
-                        <source src="images/projects/2d3dpong.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="project-images">
-                        <img src="images/projects/3d_pong1.png" alt="3D Pong Game Screenshot 1">
-                        <img src="images/projects/3d_pong2.png" alt="3D Pong Game Screenshot 2">
+            <div class="projects-grid">
+                <a href="project-photo-search.html" class="project-card">
+                    <div class="project-thumbnail">
+                        <video muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()">
+                            <source src="images/projects/photoApp1.mp4" type="video/mp4">
+                        </video>
                     </div>
-                </div>
-                <p class="project-description">An iOS Pong game that allows users to seamlessly switch between 2D and 3D gameplay modes. Features customizable themes and visual effects for a personalized gaming experience.</p>
-                <ul>
-                    <li>Developed using Swift and SpriteKit/SceneKit for 2D and 3D rendering</li>
-                    <li>Implemented seamless transition between 2D and 3D game modes</li>
-                    <li>Created 3 different color themes for user customization</li>
-                    <li>Added toggle feature for trail animations to enhance visual effects</li>
-                    <li>Designed responsive touch controls optimized for mobile gameplay</li>
-                </ul>
+                    <div class="project-card-content">
+                        <h2>Photo Search App</h2>
+                        <p>iOS app with Pixabay API integration and intelligent caching</p>
+                        <div class="project-tags">
+                            <span class="tag">Swift</span>
+                            <span class="tag">UIKit</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="project-pong.html" class="project-card">
+                    <div class="project-thumbnail">
+                        <video muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()">
+                            <source src="images/projects/2d3dpong.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-card-content">
+                        <h2>2D & 3D Pong Game</h2>
+                        <p>Interactive game with seamless 2D/3D mode switching and themes</p>
+                        <div class="project-tags">
+                            <span class="tag">Swift</span>
+                            <span class="tag">SpriteKit</span>
+                            <span class="tag">SceneKit</span>
+                        </div>
+                    </div>
+                </a>
             </div>
 
         </div>

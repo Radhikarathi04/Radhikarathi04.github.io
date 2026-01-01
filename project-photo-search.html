@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Search App - Radhika Rathi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+       <div class="nav-wrapper">
+        <button class="burger-menu" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="left-side">
+            <div class="nav-link-wrapper">
+                 <a href="index.html">Home</a>
+            </div>
+
+            <div class="nav-link-wrapper">
+                 <a href="about.html">About Me</a>
+            </div>
+
+            <div class="nav-link-wrapper">
+                <a href="skills.html">Skills</a>
+            </div>
+
+            <div class="nav-link-wrapper">
+                <a href="experience.html">Experience</a>
+            </div>
+
+            <div class="nav-link-wrapper active-nav-link">
+                <a href="projects.html">Projects</a>
+            </div>
+
+          </div>
+
+         <div class="right-side">
+            <div class="brand">
+                 
+                 </div>
+            </div>
+        </div>
+
+        <div class="project-detail">
+            <a href="projects.html" style="color: #2c5282; text-decoration: none; font-size: 1em; margin-bottom: 20px; display: inline-block;">← Back to Projects</a>
+            
+            <h1>Photo Search App</h1>
+            <p class="project-description">An iOS application that allows users to search and browse high-quality photos using the Pixabay API. Features intelligent caching for improved performance and seamless user experience.</p>
+
+            <div class="project-media">
+                <video controls>
+                    <source src="images/projects/photoApp1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li>Built with Swift and UIKit for native iOS development</li>
+                <li>Integrated Pixabay API for real-time photo search with thousands of high-quality images</li>
+                <li>Implemented intelligent caching mechanism to store and display previously searched results, significantly reducing API calls and improving load times</li>
+                <li>Designed collection views with lazy loading for optimal performance and smooth scrolling</li>
+                <li>Created intuitive search interface following iOS Human Interface Guidelines</li>
+                <li>Implemented error handling and loading states for better user experience</li>
+            </ul>
+
+            <h2>Technical Highlights</h2>
+            <ul>
+                <li><strong>Caching Strategy:</strong> NSCache implementation to store search results in memory, reducing network requests by up to 70% for repeated searches</li>
+                <li><strong>API Integration:</strong> RESTful API calls with URLSession and efficient JSON parsing</li>
+                <li><strong>UI/UX Design:</strong> Clean, minimalist interface with focus on photo content and easy navigation</li>
+                <li><strong>Performance:</strong> Asynchronous image loading and memory-efficient collection view implementation</li>
+            </ul>
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
