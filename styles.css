@@ -314,6 +314,61 @@ body {
     text-align: left;
 }
 
+/* Projects Section */
+.projects-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+.projects-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-item h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.project-description {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-item ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.project-item li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     /* Burger Menu */
@@ -429,6 +484,15 @@ body {
     .experience-section h1 {
         font-size: 2em;
     }
+    
+    /* Projects Section */
+    .projects-section {
+        padding: 30px 20px;
+    }
+    
+    .projects-section h1 {
+        font-size: 2em;
+    }
 }
 
 @media (max-width: 480px) {
@@ -462,6 +526,19 @@ body {
     }
     
     .experience-item h2 {
+        font-size: 1.2em;
+    }
+    
+    /* Projects Section */
+    .projects-section {
+        padding: 20px 15px;
+    }
+    
+    .projects-section h1 {
+        font-size: 1.8em;
+    }
+    
+    .project-item h2 {
         font-size: 1.2em;
     }
 }
